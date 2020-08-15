@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[     38093,        882]
-NotebookOptionsPosition[     28253,        689]
-NotebookOutlinePosition[     34563,        821]
-CellTagsIndexPosition[     33927,        799]
+NotebookDataLength[    107172,       2076]
+NotebookOptionsPosition[     95210,       1845]
+NotebookOutlinePosition[    101561,       1977]
+CellTagsIndexPosition[    100902,       1955]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -67,6 +67,8 @@ For example:\n",
  CellTags->
   "Initialization \
 Code",ExpressionUUID->"1d34a731-8c48-4189-8b6f-89ef5777db9f"],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"\[IndentingNewLine]", 
@@ -157,8 +159,1025 @@ Cell[BoxData[
    3.8065112389864335`*^9, {3.8065115976075*^9, 3.806511726761408*^9}, {
    3.806511814130725*^9, 3.806511833344426*^9}, {3.8065119667294903`*^9, 
    3.8065119737150383`*^9}},
- CellLabel->"In[201]:=",
- CellID->116065894,ExpressionUUID->"d349fbfa-5d52-470e-8fbb-a71b2b31baeb"]
+ CellLabel->"In[252]:=",
+ CellID->116065894,ExpressionUUID->"d349fbfa-5d52-470e-8fbb-a71b2b31baeb"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["ServiceObject",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    TemplateBox[{
+      PaneSelectorBox[{False -> GridBox[{{
+            GraphicsBox[
+             TagBox[
+              RasterBox[CompressedData["
+1:eJy11kEoQ3EAx/Fnox5WXgkl0m7/o6MySk44mSg5aMvbuGzZMMqJGw7KaZKb
+1FJaDpScRLlQTDgoJJSDmwjN79//v3o973n7v72tPqtt77/v+7/9997zBqP+
+kEuSpLiMJ38g0RGLBWb6FLzoj8THwhF1pCsyoYbVWEvQjTfroBFKpcIfJHVf
+DuNwBp/wDTcwD4pmuxLohmr+uh1mbfQa4ByyJp5gAOYgA/uaset8m4RAr4zP
+zayn9whN4OXjTzSfJUHOoxkS6NHjvQ2nMGnQpC6hzaJ5INDMWdSMT5pskwaf
+SfNWsBfVjW+12J6uwwXogXq+BjOCTcVgv1cFxn/x30ikKet6KZiGKxu/UT7e
+DOaYLlIr59igOVTk5pJB0w1HRWx2mqz9GvL3f+qEBzonoybvemCUsP+GU80p
+sx5vLjs8x2eotGjS4/viYHPwv56m20zYNajQ3kY+PU1XIeyae03EzzdZvhYr
+RJqaNj0Pi56baK9KsCMTdg+xa2N+W1Zrhjd6YQU24RA+bLReYVhwbvR+aIew
+64VI646wa4NHpKdr14IKa3DB9/+Hf/87b+wRdk/lA5edzi9wIbHH
+               "], {{0, 23.}, {29., 0}}, {0, 255}, ColorFunction -> RGBColor], 
+              BoxForm`ImageTag[
+              "Byte", ColorSpace -> "RGB", Interleaving -> True], Selectable -> 
+              False], DefaultBaseStyle -> "ImageGraphics", 
+             ImageSizeRaw -> {29., 23.}, PlotRange -> {{0, 29.}, {0, 23.}}], 
+            GridBox[{{
+               TagBox["\"Twitter\"", "SummaryItem"]}, {
+               TagBox[
+                DynamicBox[
+                 ToBoxes[
+                  If[
+                   TrueQ[
+                    ServiceConnections`Private`authenticatedServiceQ[
+                    "connection-f5ff49fa695b373e5d7b5e8fee04e269"]], 
+                   "Connected", "Not Connected"], StandardForm]], 
+                "SummaryItem"]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            GraphicsBox[
+             TagBox[
+              RasterBox[CompressedData["
+1:eJy11kEoQ3EAx/Fnox5WXgkl0m7/o6MySk44mSg5aMvbuGzZMMqJGw7KaZKb
+1FJaDpScRLlQTDgoJJSDmwjN79//v3o973n7v72tPqtt77/v+7/9997zBqP+
+kEuSpLiMJ38g0RGLBWb6FLzoj8THwhF1pCsyoYbVWEvQjTfroBFKpcIfJHVf
+DuNwBp/wDTcwD4pmuxLohmr+uh1mbfQa4ByyJp5gAOYgA/uaset8m4RAr4zP
+zayn9whN4OXjTzSfJUHOoxkS6NHjvQ2nMGnQpC6hzaJ5INDMWdSMT5pskwaf
+SfNWsBfVjW+12J6uwwXogXq+BjOCTcVgv1cFxn/x30ikKet6KZiGKxu/UT7e
+DOaYLlIr59igOVTk5pJB0w1HRWx2mqz9GvL3f+qEBzonoybvemCUsP+GU80p
+sx5vLjs8x2eotGjS4/viYHPwv56m20zYNajQ3kY+PU1XIeyae03EzzdZvhYr
+RJqaNj0Pi56baK9KsCMTdg+xa2N+W1Zrhjd6YQU24RA+bLReYVhwbvR+aIew
+64VI646wa4NHpKdr14IKa3DB9/+Hf/87b+wRdk/lA5edzi9wIbHH
+               "], {{0, 23.}, {29., 0}}, {0, 255}, ColorFunction -> RGBColor], 
+              BoxForm`ImageTag[
+              "Byte", ColorSpace -> "RGB", Interleaving -> True], Selectable -> 
+              False], DefaultBaseStyle -> "ImageGraphics", 
+             ImageSizeRaw -> {29., 23.}, PlotRange -> {{0, 29.}, {0, 23.}}], 
+            GridBox[{{
+               TagBox["\"Twitter\"", "SummaryItem"]}, {
+               TagBox[
+                DynamicBox[
+                 ToBoxes[
+                  If[
+                   TrueQ[
+                    ServiceConnections`Private`authenticatedServiceQ[
+                    "connection-f5ff49fa695b373e5d7b5e8fee04e269"]], 
+                   "Connected", "Not Connected"], StandardForm]], 
+                "SummaryItem"]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  ServiceObject[
+  "Twitter", "ID" -> "connection-f5ff49fa695b373e5d7b5e8fee04e269"],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{3.806512509810931*^9},
+ CellLabel->"Out[252]=",
+ CellID->73958049,ExpressionUUID->"7cc71d9a-5a52-46ce-a776-981b7ee4c9c2"],
+
+Cell[BoxData[
+ RowBox[{"{", "}"}]], "Output",
+ CellChangeTimes->{3.806512509878048*^9},
+ CellLabel->"Out[253]=",
+ CellID->631729034,ExpressionUUID->"3f35f44b-eb63-4dca-9d62-5d42201297c3"],
+
+Cell[BoxData["\<\"elonmusk\"\>"], "Output",
+ CellChangeTimes->{3.806512526131347*^9},
+ CellLabel->"Out[254]=",
+ CellID->236756293,ExpressionUUID->"e9cf952b-07a7-4399-bcb7-278391495125"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"ID\"\>", "\[Rule]", "\<\"1294728076450869248\"\>"}], ",", 
+     RowBox[{"\<\"Text\"\>", 
+      "\[Rule]", "\<\"@flcnhvy @ICannot_Enough @Tesla This is out of our \
+hands, so hard to predict. Maybe on order of 10 billion km of real world \
+driving will be enough to convince regulators.\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"ID\"\>", "\[Rule]", "\<\"1294727555769982976\"\>"}], ",", 
+     RowBox[{"\<\"Text\"\>", "\[Rule]", "\<\"@austinbarnard45 Yes\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"ID\"\>", "\[Rule]", "\<\"1294727374085349376\"\>"}], ",", 
+     RowBox[{"\<\"Text\"\>", 
+      "\[Rule]", "\<\"@realwillreil @GiulioCoraggio \|01f923\|01f923 hasty \
+govt \|01f923\|01f923\"\>"}]}], "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"ID\"\>", "\[Rule]", "\<\"1294727006383247360\"\>"}], ",", 
+     RowBox[{"\<\"Text\"\>", 
+      "\[Rule]", "\<\"@teslaownersSV @PPathole @ICannot_Enough @flcnhvy \
+@Tesla A lot of work remains. Technically, we have it working in sim with \
+FPGAs at ~0.01% capability. This will be a true supercomputer.\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"ID\"\>", "\[Rule]", "\<\"1294725858960084992\"\>"}], ",", 
+     RowBox[{"\<\"Text\"\>", 
+      "\[Rule]", "\<\"@PPathole @ICannot_Enough @flcnhvy @Tesla Dojo is still \
+being built. Maybe a year or so from V1.0.\"\>"}]}], "\[RightAssociation]"}], 
+   ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"ID\"\>", "\[Rule]", "\<\"1294724702967984128\"\>"}], ",", 
+     RowBox[{"\<\"Text\"\>", 
+      "\[Rule]", "\<\"@ICannot_Enough @flcnhvy @Tesla Autopilot was trapped \
+in a local maximum, labeling single camera images uncorrelated in time. Now, \
+it is not.\"\>"}]}], "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"ID\"\>", "\[Rule]", "\<\"1294722951896395776\"\>"}], ",", 
+     RowBox[{"\<\"Text\"\>", 
+      "\[Rule]", "\<\"@ICannot_Enough @flcnhvy @Tesla Your insights over the \
+years have been excellent. That\[CloseCurlyQuote]s approximately \
+right.\"\>"}]}], "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"ID\"\>", "\[Rule]", "\<\"1294722423502204929\"\>"}], ",", 
+     RowBox[{"\<\"Text\"\>", 
+      "\[Rule]", "\<\"@GiulioCoraggio Absolutely, but it doesn\
+\[CloseCurlyQuote]t seem that govt can move fast enough\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"ID\"\>", "\[Rule]", "\<\"1294722072262795264\"\>"}], ",", 
+     RowBox[{"\<\"Text\"\>", "\[Rule]", "\<\"@teslaownersSV Ok\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"ID\"\>", "\[Rule]", "\<\"1294721779018022913\"\>"}], ",", 
+     RowBox[{"\<\"Text\"\>", 
+      "\[Rule]", "\<\"@flcnhvy It will blow ur mind haha \
+https://t.co/LqnKEN5Kjn\"\>"}]}], "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"ID\"\>", "\[Rule]", "\<\"1294714938200449024\"\>"}], ",", 
+     RowBox[{"\<\"Text\"\>", 
+      "\[Rule]", "\<\"Our main engineering locations are Palo Alto, Austin \
+&amp; Seattle, but working remotely is acceptable for exceptional \
+candidates\"\>"}]}], "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"ID\"\>", "\[Rule]", "\<\"1294607951357870082\"\>"}], ",", 
+     RowBox[{"\<\"Text\"\>", 
+      "\[Rule]", "\<\"@tomdestella I want to do electric vtol supersonic sooo \
+bad, but my brain will overload\"\>"}]}], "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"ID\"\>", "\[Rule]", "\<\"1294416585252392960\"\>"}], ",", 
+     RowBox[{"\<\"Text\"\>", 
+      "\[Rule]", "\<\"@universal_sci Asteroid impact risk is well understood, \
+but not comets. Those worry me.\"\>"}]}], "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"ID\"\>", "\[Rule]", "\<\"1294378469845897216\"\>"}], ",", 
+     RowBox[{"\<\"Text\"\>", "\[Rule]", "\<\"@Nikola_Truth Haha true\"\>"}]}],
+     "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"ID\"\>", "\[Rule]", "\<\"1294378331366756352\"\>"}], ",", 
+     RowBox[{"\<\"Text\"\>", 
+      "\[Rule]", "\<\"@WholeMarsBlog @alesssj4 Yup\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"ID\"\>", "\[Rule]", "\<\"1294377927392411648\"\>"}], ",", 
+     RowBox[{"\<\"Text\"\>", 
+      "\[Rule]", "\<\"@flcnhvy @teslaownersSV Exactly\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"ID\"\>", "\[Rule]", "\<\"1294377824355094528\"\>"}], ",", 
+     RowBox[{"\<\"Text\"\>", 
+      "\[Rule]", "\<\"@Kristennetten @teslaownersSV @Erdayastronaut Also \
+definitely coming haha. Will only be on relatively recent cars, as we didn\
+\[CloseCurlyQuote]t have an outside speaker until about a year ago. Can \
+change inside sound easily.\"\>"}]}], "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"ID\"\>", "\[Rule]", "\<\"1294377367075344384\"\>"}], ",", 
+     RowBox[{"\<\"Text\"\>", 
+      "\[Rule]", "\<\"@vicentes @teslaownersSV @Erdayastronaut Sorry, this is \
+embarrassingly late. Two factor authentication via sms or authenticator app \
+is going through final validation right now.\"\>"}]}], 
+    "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"ID\"\>", "\[Rule]", "\<\"1294376617960062976\"\>"}], ",", 
+     RowBox[{"\<\"Text\"\>", 
+      "\[Rule]", "\<\"@_bennettm_ @Erdayastronaut Yes! We\[CloseCurlyQuote]re \
+labeling bumps &amp; potholes, so the car can slow down or steer around them \
+when safe to do so.\"\>"}]}], "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"ID\"\>", "\[Rule]", "\<\"1294375897319890944\"\>"}], ",", 
+     RowBox[{"\<\"Text\"\>", 
+      "\[Rule]", "\<\"@teslaownersSV @Erdayastronaut Not perfectly at first, \
+but yes. Will take maybe a year or so to get really good at roundabouts \
+worldwide. The world has a zillion weird corner cases.\"\>"}]}], 
+    "\[RightAssociation]"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.8065125268163495`*^9},
+ CellLabel->"Out[256]=",
+ CellID->359109319,ExpressionUUID->"60506977-1545-4b30-ae9d-c98aae86152a"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\[LeftAssociation]", 
+   RowBox[{
+    RowBox[{"\<\"ID\"\>", "\[Rule]", "44196397"}], ",", 
+    RowBox[{"\<\"ScreenName\"\>", "\[Rule]", "\<\"elonmusk\"\>"}], ",", 
+    RowBox[{"\<\"Name\"\>", "\[Rule]", "\<\"Elon Musk\"\>"}], ",", 
+    RowBox[{"\<\"Location\"\>", "\[Rule]", 
+     RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}]}], ",", 
+    RowBox[{"\<\"FavouritesCount\"\>", "\[Rule]", "6414"}], ",", 
+    RowBox[{"\<\"FollowersCount\"\>", "\[Rule]", "37913731"}], ",", 
+    RowBox[{"\<\"FriendsCount\"\>", "\[Rule]", "96"}], ",", 
+    RowBox[{"\<\"TweetsCount\"\>", "\[Rule]", "12017"}], ",", 
+    RowBox[{"\<\"CreationDate\"\>", "\[Rule]", 
+     TemplateBox[{
+       RowBox[{"\"Tue 2 Jun 2009 20:12:29\"", 
+         StyleBox["\"GMT\"", FontColor -> GrayLevel[0.5]]}], 
+       RowBox[{"DateObject", "[", 
+         RowBox[{
+           RowBox[{"{", 
+             
+             RowBox[{"2009", ",", "6", ",", "2", ",", "20", ",", "12", ",", 
+               "29"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", ",", 
+           "0.`"}], "]"}]},
+      "DateObject",
+      Editable->False]}]}], "\[RightAssociation]"}], "}"}]], "Output",
+ CellChangeTimes->{3.806512527244347*^9},
+ CellLabel->"Out[257]=",
+ CellID->114524006,ExpressionUUID->"a9abe713-48a6-48d1-87d8-bbee539212c5"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "ServiceExecute", "rlim", 
+   "\"The request limit for this resource has been reached for the current \
+rate limit window. Please try again in a few minutes.\"", 2, 258, 81, 
+   18815223009419713426, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.8065125276233573`*^9},
+ CellLabel->"During evaluation of In[252]:=",
+ CellID->191045493,ExpressionUUID->"ce1a38f5-7189-480d-b309-a42638915147"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Counts", "invl", 
+   "\"The argument \
+\\!\\(\\*RowBox[{InterpretationBox[RowBox[{TagBox[\\\"ServiceObject\\\", \
+\\\"SummaryHead\\\"], \\\"[\\\", DynamicModuleBox[{Typeset`open$$ = False, \
+Set[Typeset`embedState$$, \\\"Ready\\\"]}, \
+TemplateBox[List[PaneSelectorBox[List[Rule[False, \
+GridBox[List[List[GraphicsBox[TagBox[RasterBox[NumericArray[List[List[List[0, \
+0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 9], \
+List[40, 170, 225, 113], List[40, 170, 225, 207], List[40, 170, 225, 249], \
+List[40, 170, 225, 252], List[40, 170, 225, 217], List[40, 170, 225, 131], \
+List[40, 170, 225, 16], List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, \
+225, 1], List[40, 170, 225, 74], List[40, 170, 225, 19]], List[List[0, 0, 0, \
+0], List[40, 170, 225, 62], List[40, 170, 225, 124], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 28], \
+List[40, 170, 225, 210], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 230], List[40, 170, 225, 86], \
+List[40, 170, 225, 130], List[40, 170, 225, 212], List[40, 170, 225, 187], \
+List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[40, 170, 225, 158], List[40, \
+170, 225, 255], List[40, 170, 225, 119], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 5], List[40, 170, 225, 207], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 228], List[40, 170, 225, 31], List[40, 170, 225, 33]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 201], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 153], List[40, 170, 225, 8], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 102], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 252], \
+List[40, 170, 225, 175], List[40, 170, 225, 206], List[40, 170, 225, 117]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 201], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 213], \
+List[40, 170, 225, 61], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 189], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 139], List[0, 0, 0, 0]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 153], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 177], List[40, 170, 225, 60], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[40, 170, 225, 221], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 111], List[0, 0, 0, 0], List[0, 0, 0, 0]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 59], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 217], List[40, 170, 225, 138], List[40, 170, 225, 75], \
+List[40, 170, 225, 26], List[40, 170, 225, 1], List[40, 170, 225, 212], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 16], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 154], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 251], \
+List[40, 170, 225, 252], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 8], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, \
+0, 0], List[40, 170, 225, 170], List[40, 170, 225, 120], List[40, 170, 225, \
+215], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 239], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, \
+0, 0]], List[List[0, 0, 0, 0], List[40, 170, 225, 177], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 198], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[40, 170, \
+225, 91], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 140], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 3], List[40, 170, 225, 197], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 67], List[0, 0, 0, 0], List[0, 0, \
+0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, \
+170, 225, 21], List[40, 170, 225, 201], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 226], List[40, 170, 225, 3], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[40, 170, 225, 12], List[40, 170, 225, 104], \
+List[40, 170, 225, 217], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 118], List[0, 0, 0, 0], List[0, \
+0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, \
+0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 144], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 231], List[40, 170, 225, 11], List[0, 0, 0, 0], List[0, 0, \
+0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, \
+0, 0], List[0, 0, 0, 0], List[40, 170, 225, 21], List[40, 170, 225, 232], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 89], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 48], List[40, 170, \
+225, 230], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 165], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 16], List[40, 170, \
+225, 131], List[40, 170, 225, 216], List[40, 170, 225, 252], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 201], List[40, 170, 225, 10], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], \
+List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 59], \
+List[40, 170, 225, 215], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 201], List[40, 170, 225, 15], List[0, 0, 0, 0], List[0, 0, \
+0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[40, 170, 225, 8], List[40, 170, 225, 74], List[40, \
+170, 225, 183], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 172], List[40, 170, 225, 11], List[0, 0, \
+0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[40, 170, \
+225, 81], List[40, 170, 225, 147], List[40, 170, 225, 167], List[40, 170, \
+225, 195], List[40, 170, 225, 248], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 235], List[40, 170, \
+225, 95], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[40, 170, \
+225, 62], List[40, 170, 225, 179], List[40, 170, 225, 251], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 224], List[40, 170, \
+225, 120], List[40, 170, 225, 12], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 22], List[40, 170, 225, 101], List[40, 170, 225, 156], \
+List[40, 170, 225, 211], List[40, 170, 225, 235], List[40, 170, 225, 253], \
+List[40, 170, 225, 255], List[40, 170, 225, 246], List[40, 170, 225, 224], \
+List[40, 170, 225, 184], List[40, 170, 225, 130], List[40, 170, 225, 60], \
+List[40, 170, 225, 2], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]]], \\\"UnsignedInteger8\\\"], List[List[0, \
+23.`], List[29.`, 0]], List[0, 255], Rule[ColorFunction, RGBColor]], \
+BoxForm`ImageTag[\\\"Byte\\\", Rule[ColorSpace, \\\"RGB\\\"], \
+Rule[Interleaving, True]], Rule[Selectable, False]], Rule[DefaultBaseStyle, \
+\\\"ImageGraphics\\\"], Rule[ImageSizeRaw, List[29.`, 23.`]], Rule[PlotRange, \
+List[List[0, 29.`], List[0, 23.`]]]], \
+GridBox[List[List[TagBox[\\\"\\\\\\\"Twitter\\\\\\\"\\\", \
+\\\"SummaryItem\\\"]], \
+List[TagBox[DynamicBox[ToBoxes[If[TrueQ[ServiceConnections`Private`\
+authenticatedServiceQ[\\\"connection-f5ff49fa695b373e5d7b5e8fee04e269\\\"]], \
+\\\"Connected\\\", \\\"Not Connected\\\"], StandardForm]], \
+\\\"SummaryItem\\\"]]], Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", \
+List[List[Left]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
+Rule[AutoDelete, False], Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", \
+List[List[Automatic]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
+Rule[GridBoxSpacings, List[Rule[\\\"Columns\\\", List[List[2]]], \
+Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[BaseStyle, \
+List[Rule[ShowStringCharacters, False], Rule[NumberMarks, False], \
+Rule[PrintPrecision, 3], Rule[ShowSyntaxStyles, False]]]]]], \
+Rule[GridBoxAlignment, List[Rule[\\\"Rows\\\", List[List[Top]]]]], \
+Rule[AutoDelete, False], Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", \
+List[List[Automatic]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
+Rule[BaselinePosition, List[1, 1]]]], Rule[True, \
+GridBox[List[List[GraphicsBox[TagBox[RasterBox[NumericArray[List[List[List[0, \
+0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 9], \
+List[40, 170, 225, 113], List[40, 170, 225, 207], List[40, 170, 225, 249], \
+List[40, 170, 225, 252], List[40, 170, 225, 217], List[40, 170, 225, 131], \
+List[40, 170, 225, 16], List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, \
+225, 1], List[40, 170, 225, 74], List[40, 170, 225, 19]], List[List[0, 0, 0, \
+0], List[40, 170, 225, 62], List[40, 170, 225, 124], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 28], \
+List[40, 170, 225, 210], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 230], List[40, 170, 225, 86], \
+List[40, 170, 225, 130], List[40, 170, 225, 212], List[40, 170, 225, 187], \
+List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[40, 170, 225, 158], List[40, \
+170, 225, 255], List[40, 170, 225, 119], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 5], List[40, 170, 225, 207], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 228], List[40, 170, 225, 31], List[40, 170, 225, 33]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 201], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 153], List[40, 170, 225, 8], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 102], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 252], \
+List[40, 170, 225, 175], List[40, 170, 225, 206], List[40, 170, 225, 117]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 201], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 213], \
+List[40, 170, 225, 61], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 189], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 139], List[0, 0, 0, 0]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 153], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 177], List[40, 170, 225, 60], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[40, 170, 225, 221], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 111], List[0, 0, 0, 0], List[0, 0, 0, 0]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 59], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 217], List[40, 170, 225, 138], List[40, 170, 225, 75], \
+List[40, 170, 225, 26], List[40, 170, 225, 1], List[40, 170, 225, 212], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 16], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 154], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 251], \
+List[40, 170, 225, 252], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 8], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, \
+0, 0], List[40, 170, 225, 170], List[40, 170, 225, 120], List[40, 170, 225, \
+215], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 239], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, \
+0, 0]], List[List[0, 0, 0, 0], List[40, 170, 225, 177], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, \
+255], List[40, 170, 225, 255], List[40, 170, 225, 198], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[40, 170, \
+225, 91], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 140], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], \
+List[List[0, 0, 0, 0], List[40, 170, 225, 3], List[40, 170, 225, 197], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 67], List[0, 0, 0, 0], List[0, 0, \
+0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, \
+170, 225, 21], List[40, 170, 225, 201], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 226], List[40, 170, 225, 3], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[40, 170, 225, 12], List[40, 170, 225, 104], \
+List[40, 170, 225, 217], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 118], List[0, 0, 0, 0], List[0, \
+0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, \
+0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 144], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 231], List[40, 170, 225, 11], List[0, 0, 0, 0], List[0, 0, \
+0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, \
+0, 0], List[0, 0, 0, 0], List[40, 170, 225, 21], List[40, 170, 225, 232], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 89], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 48], List[40, 170, \
+225, 230], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 165], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 16], List[40, 170, \
+225, 131], List[40, 170, 225, 216], List[40, 170, 225, 252], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 201], List[40, 170, 225, 10], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], \
+List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[40, 170, 225, 59], \
+List[40, 170, 225, 215], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], \
+List[40, 170, 225, 201], List[40, 170, 225, 15], List[0, 0, 0, 0], List[0, 0, \
+0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[40, 170, 225, 8], List[40, 170, 225, 74], List[40, \
+170, 225, 183], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, \
+170, 225, 255], List[40, 170, 225, 172], List[40, 170, 225, 11], List[0, 0, \
+0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[40, 170, \
+225, 81], List[40, 170, 225, 147], List[40, 170, 225, 167], List[40, 170, \
+225, 195], List[40, 170, 225, 248], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 235], List[40, 170, \
+225, 95], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, \
+0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[40, 170, \
+225, 62], List[40, 170, 225, 179], List[40, 170, 225, 251], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 255], List[40, 170, \
+225, 255], List[40, 170, 225, 255], List[40, 170, 225, 224], List[40, 170, \
+225, 120], List[40, 170, 225, 12], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0]], List[List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[40, 170, 225, 22], List[40, 170, 225, 101], List[40, 170, 225, 156], \
+List[40, 170, 225, 211], List[40, 170, 225, 235], List[40, 170, 225, 253], \
+List[40, 170, 225, 255], List[40, 170, 225, 246], List[40, 170, 225, 224], \
+List[40, 170, 225, 184], List[40, 170, 225, 130], List[40, 170, 225, 60], \
+List[40, 170, 225, 2], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], List[0, 0, 0, 0], \
+List[0, 0, 0, 0], List[0, 0, 0, 0]]], \\\"UnsignedInteger8\\\"], List[List[0, \
+23.`], List[29.`, 0]], List[0, 255], Rule[ColorFunction, RGBColor]], \
+BoxForm`ImageTag[\\\"Byte\\\", Rule[ColorSpace, \\\"RGB\\\"], \
+Rule[Interleaving, True]], Rule[Selectable, False]], Rule[DefaultBaseStyle, \
+\\\"ImageGraphics\\\"], Rule[ImageSizeRaw, List[29.`, 23.`]], Rule[PlotRange, \
+List[List[0, 29.`], List[0, 23.`]]]], \
+GridBox[List[List[TagBox[\\\"\\\\\\\"Twitter\\\\\\\"\\\", \
+\\\"SummaryItem\\\"]], \
+List[TagBox[DynamicBox[ToBoxes[If[TrueQ[ServiceConnections`Private`\
+authenticatedServiceQ[\\\"connection-f5ff49fa695b373e5d7b5e8fee04e269\\\"]], \
+\\\"Connected\\\", \\\"Not Connected\\\"], StandardForm]], \
+\\\"SummaryItem\\\"]]], Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", \
+List[List[Left]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
+Rule[AutoDelete, False], Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", \
+List[List[Automatic]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
+Rule[GridBoxSpacings, List[Rule[\\\"Columns\\\", List[List[2]]], \
+Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[BaseStyle, \
+List[Rule[ShowStringCharacters, False], Rule[NumberMarks, False], \
+Rule[PrintPrecision, 3], Rule[ShowSyntaxStyles, False]]]]]], \
+Rule[GridBoxAlignment, List[Rule[\\\"Rows\\\", List[List[Top]]]]], \
+Rule[AutoDelete, False], Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", \
+List[List[Automatic]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
+Rule[BaselinePosition, List[1, 1]]]]], Dynamic[Typeset`open$$], \
+Rule[ImageSize, Automatic]]], \\\"SummaryPanel\\\"], \
+RuleDelayed[DynamicModuleValues, List[]]], \\\"]\\\"}], \
+ServiceObject[\\\"Twitter\\\", Rule[\\\"ID\\\", \
+\\\"connection-f5ff49fa695b373e5d7b5e8fee04e269\\\"]], Rule[Selectable, \
+False], Rule[Editable, False], Rule[SelectWithContents, True]], \\\"[\\\", \
+RowBox[{\\\"\\\\\\\"Friends\\\\\\\"\\\", \\\",\\\", \
+RowBox[{\\\"\\\\\\\"Username\\\\\\\"\\\", \\\"\[Rule]\\\", \
+\\\"\\\\\\\"DamonMRocha\\\\\\\"\\\"}], \\\",\\\", RowBox[{\\\"MaxItems\\\", \
+\\\"\[Rule]\\\", \\\"20\\\"}]}], \\\"]\\\"}]\\) is not a list.\"", 2, 258, 82,
+    18815223009419713426, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.8065125277313457`*^9},
+ CellLabel->"During evaluation of In[252]:=",
+ CellID->279946858,ExpressionUUID->"2bed4485-8563-43e0-acf8-6b11ac353fc3"],
+
+Cell[BoxData[
+ RowBox[{"Counts", "[", 
+  RowBox[{
+   InterpretationBox[
+    RowBox[{
+     TagBox["ServiceObject",
+      "SummaryHead"], "[", 
+     DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = 
+      "Ready"}, 
+      TemplateBox[{
+        PaneSelectorBox[{False -> GridBox[{{
+              GraphicsBox[
+               TagBox[
+                RasterBox[CompressedData["
+1:eJy11kEoQ3EAx/Fnox5WXgkl0m7/o6MySk44mSg5aMvbuGzZMMqJGw7KaZKb
+1FJaDpScRLlQTDgoJJSDmwjN79//v3o973n7v72tPqtt77/v+7/9997zBqP+
+kEuSpLiMJ38g0RGLBWb6FLzoj8THwhF1pCsyoYbVWEvQjTfroBFKpcIfJHVf
+DuNwBp/wDTcwD4pmuxLohmr+uh1mbfQa4ByyJp5gAOYgA/uaset8m4RAr4zP
+zayn9whN4OXjTzSfJUHOoxkS6NHjvQ2nMGnQpC6hzaJ5INDMWdSMT5pskwaf
+SfNWsBfVjW+12J6uwwXogXq+BjOCTcVgv1cFxn/x30ikKet6KZiGKxu/UT7e
+DOaYLlIr59igOVTk5pJB0w1HRWx2mqz9GvL3f+qEBzonoybvemCUsP+GU80p
+sx5vLjs8x2eotGjS4/viYHPwv56m20zYNajQ3kY+PU1XIeyae03EzzdZvhYr
+RJqaNj0Pi56baK9KsCMTdg+xa2N+W1Zrhjd6YQU24RA+bLReYVhwbvR+aIew
+64VI646wa4NHpKdr14IKa3DB9/+Hf/87b+wRdk/lA5edzi9wIbHH
+                 "], {{0, 23.}, {29., 0}}, {0, 255}, ColorFunction -> 
+                 RGBColor], 
+                BoxForm`ImageTag[
+                "Byte", ColorSpace -> "RGB", Interleaving -> True], 
+                Selectable -> False], DefaultBaseStyle -> "ImageGraphics", 
+               ImageSizeRaw -> {29., 23.}, PlotRange -> {{0, 29.}, {0, 23.}}], 
+              GridBox[{{
+                 TagBox["\"Twitter\"", "SummaryItem"]}, {
+                 TagBox[
+                  DynamicBox[
+                   ToBoxes[
+                    If[
+                    TrueQ[
+                    ServiceConnections`Private`authenticatedServiceQ[
+                    "connection-f5ff49fa695b373e5d7b5e8fee04e269"]], 
+                    "Connected", "Not Connected"], StandardForm]], 
+                  "SummaryItem"]}}, 
+               GridBoxAlignment -> {
+                "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+               False, GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+               GridBoxSpacings -> {
+                "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+               BaseStyle -> {
+                ShowStringCharacters -> False, NumberMarks -> False, 
+                 PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+            GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+            GridBoxItemSize -> {
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+            BaselinePosition -> {1, 1}], True -> GridBox[{{
+              GraphicsBox[
+               TagBox[
+                RasterBox[CompressedData["
+1:eJy11kEoQ3EAx/Fnox5WXgkl0m7/o6MySk44mSg5aMvbuGzZMMqJGw7KaZKb
+1FJaDpScRLlQTDgoJJSDmwjN79//v3o973n7v72tPqtt77/v+7/9997zBqP+
+kEuSpLiMJ38g0RGLBWb6FLzoj8THwhF1pCsyoYbVWEvQjTfroBFKpcIfJHVf
+DuNwBp/wDTcwD4pmuxLohmr+uh1mbfQa4ByyJp5gAOYgA/uaset8m4RAr4zP
+zayn9whN4OXjTzSfJUHOoxkS6NHjvQ2nMGnQpC6hzaJ5INDMWdSMT5pskwaf
+SfNWsBfVjW+12J6uwwXogXq+BjOCTcVgv1cFxn/x30ikKet6KZiGKxu/UT7e
+DOaYLlIr59igOVTk5pJB0w1HRWx2mqz9GvL3f+qEBzonoybvemCUsP+GU80p
+sx5vLjs8x2eotGjS4/viYHPwv56m20zYNajQ3kY+PU1XIeyae03EzzdZvhYr
+RJqaNj0Pi56baK9KsCMTdg+xa2N+W1Zrhjd6YQU24RA+bLReYVhwbvR+aIew
+64VI646wa4NHpKdr14IKa3DB9/+Hf/87b+wRdk/lA5edzi9wIbHH
+                 "], {{0, 23.}, {29., 0}}, {0, 255}, ColorFunction -> 
+                 RGBColor], 
+                BoxForm`ImageTag[
+                "Byte", ColorSpace -> "RGB", Interleaving -> True], 
+                Selectable -> False], DefaultBaseStyle -> "ImageGraphics", 
+               ImageSizeRaw -> {29., 23.}, PlotRange -> {{0, 29.}, {0, 23.}}], 
+              GridBox[{{
+                 TagBox["\"Twitter\"", "SummaryItem"]}, {
+                 TagBox[
+                  DynamicBox[
+                   ToBoxes[
+                    If[
+                    TrueQ[
+                    ServiceConnections`Private`authenticatedServiceQ[
+                    "connection-f5ff49fa695b373e5d7b5e8fee04e269"]], 
+                    "Connected", "Not Connected"], StandardForm]], 
+                  "SummaryItem"]}}, 
+               GridBoxAlignment -> {
+                "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+               False, 
+               GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+               GridBoxSpacings -> {
+                "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+               BaseStyle -> {
+                ShowStringCharacters -> False, NumberMarks -> False, 
+                 PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+            GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+            GridBoxItemSize -> {
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+            BaselinePosition -> {1, 1}]}, 
+         Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+       "SummaryPanel"],
+      DynamicModuleValues:>{}], "]"}],
+    ServiceObject[
+    "Twitter", "ID" -> "connection-f5ff49fa695b373e5d7b5e8fee04e269"],
+    Editable->False,
+    SelectWithContents->True,
+    Selectable->False], "[", 
+   RowBox[{"\<\"Friends\"\>", ",", 
+    RowBox[{"\<\"Username\"\>", "\[Rule]", "\<\"DamonMRocha\"\>"}], ",", 
+    RowBox[{"MaxItems", "\[Rule]", "20"}]}], "]"}], "]"}]], "Output",
+ CellChangeTimes->{3.806512527831383*^9},
+ CellLabel->"Out[258]=",
+ CellID->37066555,ExpressionUUID->"7e785b3e-8659-473d-9499-1b8399f364f0"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"\<\"Calisthenics Movement\"\>", "\[Rule]", "1"}], ",", 
+   RowBox[{"\<\"Alehandro Persaud\"\>", "\[Rule]", "1"}], ",", 
+   RowBox[{"\<\"Codethink\"\>", "\[Rule]", "1"}], ",", 
+   RowBox[{"\<\"Career Karma\"\>", "\[Rule]", "1"}]}], 
+  "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{3.806512528593346*^9},
+ CellLabel->"Out[259]=",
+ CellID->515301495,ExpressionUUID->"45569096-cc2a-4e41-a95e-07e2bb8a5a83"],
+
+Cell[BoxData[
+ InterpretationBox[Cell[BoxData[
+   FormBox[
+    RowBox[{"{", 
+     RowBox[{"{", 
+      RowBox[{
+      "44196397", ",", "\<\"elonmusk\"\>", ",", "\<\"Elon Musk\"\>", ",", 
+       RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}], ",", "6414", 
+       ",", "37913731", ",", "96", ",", "12017", ",", 
+       TemplateBox[{
+         RowBox[{"\"Tue 2 Jun 2009 20:12:29\"", 
+           StyleBox["\"GMT\"", FontColor -> GrayLevel[0.5]]}], 
+         RowBox[{"DateObject", "[", 
+           RowBox[{
+             RowBox[{"{", 
+               
+               RowBox[{
+                "2009", ",", "6", ",", "2", ",", "20", ",", "12", ",", "29"}],
+                "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", ",", "0.`"}],
+            "]"}]},
+        "DateObject",
+        Editable->False]}], "}"}], "}"}], TextForm]], "InlineText",
+   ExpressionUUID->"f9423705-9b8f-4cdb-8167-6e8c53e21187"],
+  Text[{{44196397, "elonmusk", "Elon Musk", 
+     Missing["NotAvailable"], 6414, 37913731, 96, 12017, 
+     DateObject[{2009, 6, 2, 20, 12, 29}, "Instant", "Gregorian", 
+      0.]}}]]], "Output",
+ CellChangeTimes->{3.8065125285993476`*^9},
+ CellLabel->"Out[260]=",
+ CellID->137010021,ExpressionUUID->"e08df44b-cd6c-4631-a182-9678addfa0bb"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{
+   "{", "\<\"@flcnhvy @ICannot_Enough @Tesla This is out of our hands, so \
+hard to predict. Maybe on order of 10 billion km of real world driving will \
+be enough to convince regulators.\"\>", "}"}], ",", 
+   RowBox[{"{", "\<\"@austinbarnard45 Yes\"\>", "}"}], ",", 
+   RowBox[{
+   "{", "\<\"@realwillreil @GiulioCoraggio \|01f923\|01f923 hasty govt \
+\|01f923\|01f923\"\>", "}"}], ",", 
+   RowBox[{
+   "{", "\<\"@teslaownersSV @PPathole @ICannot_Enough @flcnhvy @Tesla A lot \
+of work remains. Technically, we have it working in sim with FPGAs at ~0.01% \
+capability. This will be a true supercomputer.\"\>", "}"}], ",", 
+   RowBox[{
+   "{", "\<\"@PPathole @ICannot_Enough @flcnhvy @Tesla Dojo is still being \
+built. Maybe a year or so from V1.0.\"\>", "}"}], ",", 
+   RowBox[{
+   "{", "\<\"@ICannot_Enough @flcnhvy @Tesla Autopilot was trapped in a local \
+maximum, labeling single camera images uncorrelated in time. Now, it is \
+not.\"\>", "}"}], ",", 
+   RowBox[{
+   "{", "\<\"@ICannot_Enough @flcnhvy @Tesla Your insights over the years \
+have been excellent. That\[CloseCurlyQuote]s approximately right.\"\>", "}"}],
+    ",", 
+   RowBox[{
+   "{", "\<\"@GiulioCoraggio Absolutely, but it doesn\[CloseCurlyQuote]t seem \
+that govt can move fast enough\"\>", "}"}], ",", 
+   RowBox[{"{", "\<\"@teslaownersSV Ok\"\>", "}"}], ",", 
+   RowBox[{
+   "{", "\<\"@flcnhvy It will blow ur mind haha https://t.co/LqnKEN5Kjn\"\>", 
+    "}"}], ",", 
+   RowBox[{
+   "{", "\<\"Our main engineering locations are Palo Alto, Austin &amp; \
+Seattle, but working remotely is acceptable for exceptional candidates\"\>", 
+    "}"}], ",", 
+   RowBox[{
+   "{", "\<\"@tomdestella I want to do electric vtol supersonic sooo bad, but \
+my brain will overload\"\>", "}"}], ",", 
+   RowBox[{
+   "{", "\<\"@universal_sci Asteroid impact risk is well understood, but not \
+comets. Those worry me.\"\>", "}"}], ",", 
+   RowBox[{"{", "\<\"@Nikola_Truth Haha true\"\>", "}"}], ",", 
+   RowBox[{"{", "\<\"@WholeMarsBlog @alesssj4 Yup\"\>", "}"}], ",", 
+   RowBox[{"{", "\<\"@flcnhvy @teslaownersSV Exactly\"\>", "}"}], ",", 
+   RowBox[{
+   "{", "\<\"@Kristennetten @teslaownersSV @Erdayastronaut Also definitely \
+coming haha. Will only be on relatively recent cars, as we didn\
+\[CloseCurlyQuote]t have an outside speaker until about a year ago. Can \
+change inside sound easily.\"\>", "}"}], ",", 
+   RowBox[{
+   "{", "\<\"@vicentes @teslaownersSV @Erdayastronaut Sorry, this is \
+embarrassingly late. Two factor authentication via sms or authenticator app \
+is going through final validation right now.\"\>", "}"}], ",", 
+   RowBox[{
+   "{", "\<\"@_bennettm_ @Erdayastronaut Yes! We\[CloseCurlyQuote]re labeling \
+bumps &amp; potholes, so the car can slow down or steer around them when safe \
+to do so.\"\>", "}"}], ",", 
+   RowBox[{
+   "{", "\<\"@teslaownersSV @Erdayastronaut Not perfectly at first, but yes. \
+Will take maybe a year or so to get really good at roundabouts worldwide. The \
+world has a zillion weird corner cases.\"\>", "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.8065125286073456`*^9},
+ CellLabel->"Out[261]=",
+ CellID->62911048,ExpressionUUID->"8c59db92-2f85-4d05-9b02-a26c780fde7a"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"{", "\<\"Neutral\"\>", "}"}], "\[Rule]", "9"}], ",", 
+   RowBox[{
+    RowBox[{"{", "\<\"Positive\"\>", "}"}], "\[Rule]", "7"}], ",", 
+   RowBox[{
+    RowBox[{"{", "\<\"Negative\"\>", "}"}], "\[Rule]", "4"}]}], 
+  "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{3.806512528647346*^9},
+ CellLabel->"Out[264]=",
+ CellID->524208332,ExpressionUUID->"d366b339-c8dd-4245-9f3e-a7fb5666b92c"],
+
+Cell[BoxData[
+ FractionBox["7", "16"]], "Output",
+ CellChangeTimes->{3.8065125286543803`*^9},
+ CellLabel->"Out[265]=",
+ CellID->839910657,ExpressionUUID->"4deb0073-e495-4032-a086-c7eb523fbb4b"]
+}, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -195,6 +1214,8 @@ control the Flash preview for the Demonstration with the ",
  CellTags->
   "Manipulate",ExpressionUUID->"b7acceb9-ca4b-4965-b319-bd8a6214a587"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{" ", 
   RowBox[{
@@ -226,8 +1247,142 @@ Cell[BoxData[
   3.8065118521392794`*^9, 3.806511893391589*^9}, {3.8065120221366796`*^9, 
   3.8065120249452944`*^9}, {3.8065120777248106`*^9, 3.806512078110848*^9}, {
   3.806512184730797*^9, 3.806512202985527*^9}},
- CellLabel->"In[227]:=",
+ CellLabel->"In[266]:=",
  CellID->802648352,ExpressionUUID->"fc1775d0-6a8d-4005-bc68-4b5ab7d1e1da"],
+
+Cell[BoxData[
+ InterpretationBox[Cell[BoxData[
+   FormBox["\<\"This User Has Been Pretty Happy\"\>", TextForm]], 
+   "InlineText",ExpressionUUID->"394d0829-2185-4125-acc4-5a64f21c758f"],
+  Text["This User Has Been Pretty Happy"]]], "Output",
+ CellChangeTimes->{3.8065125287853513`*^9},
+ CellLabel->"Out[266]=",
+ CellID->85068427,ExpressionUUID->"dd924358-8854-4dab-854e-bf4d85e1c2f8"],
+
+Cell[BoxData[
+ RowBox[{"Friend", " ", "Network"}]], "Output",
+ CellChangeTimes->{3.8065125287913504`*^9},
+ CellLabel->"Out[269]=",
+ CellID->795508450,ExpressionUUID->"70994235-4283-41bf-9e23-3899427492b3"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "ServiceExecute", "rlim", 
+   "\"The request limit for this resource has been reached for the current \
+rate limit window. Please try again in a few minutes.\"", 2, 270, 83, 
+   18815223009419713426, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.806512529467865*^9},
+ CellLabel->"During evaluation of In[266]:=",
+ CellID->1021485209,ExpressionUUID->"c164295a-4312-42d4-bfd8-679315190a5f"],
+
+Cell[BoxData[
+ RowBox[{
+  InterpretationBox[
+   RowBox[{
+    TagBox["ServiceObject",
+     "SummaryHead"], "[", 
+    DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+     TemplateBox[{
+       PaneSelectorBox[{False -> GridBox[{{
+             GraphicsBox[
+              TagBox[
+               RasterBox[CompressedData["
+1:eJy11kEoQ3EAx/Fnox5WXgkl0m7/o6MySk44mSg5aMvbuGzZMMqJGw7KaZKb
+1FJaDpScRLlQTDgoJJSDmwjN79//v3o973n7v72tPqtt77/v+7/9997zBqP+
+kEuSpLiMJ38g0RGLBWb6FLzoj8THwhF1pCsyoYbVWEvQjTfroBFKpcIfJHVf
+DuNwBp/wDTcwD4pmuxLohmr+uh1mbfQa4ByyJp5gAOYgA/uaset8m4RAr4zP
+zayn9whN4OXjTzSfJUHOoxkS6NHjvQ2nMGnQpC6hzaJ5INDMWdSMT5pskwaf
+SfNWsBfVjW+12J6uwwXogXq+BjOCTcVgv1cFxn/x30ikKet6KZiGKxu/UT7e
+DOaYLlIr59igOVTk5pJB0w1HRWx2mqz9GvL3f+qEBzonoybvemCUsP+GU80p
+sx5vLjs8x2eotGjS4/viYHPwv56m20zYNajQ3kY+PU1XIeyae03EzzdZvhYr
+RJqaNj0Pi56baK9KsCMTdg+xa2N+W1Zrhjd6YQU24RA+bLReYVhwbvR+aIew
+64VI646wa4NHpKdr14IKa3DB9/+Hf/87b+wRdk/lA5edzi9wIbHH
+                "], {{0, 23.}, {29., 0}}, {0, 255}, ColorFunction -> 
+                RGBColor], 
+               BoxForm`ImageTag[
+               "Byte", ColorSpace -> "RGB", Interleaving -> True], Selectable -> 
+               False], DefaultBaseStyle -> "ImageGraphics", 
+              ImageSizeRaw -> {29., 23.}, PlotRange -> {{0, 29.}, {0, 23.}}], 
+             GridBox[{{
+                TagBox["\"Twitter\"", "SummaryItem"]}, {
+                TagBox[
+                 DynamicBox[
+                  ToBoxes[
+                   If[
+                    TrueQ[
+                    ServiceConnections`Private`authenticatedServiceQ[
+                    "connection-f5ff49fa695b373e5d7b5e8fee04e269"]], 
+                    "Connected", "Not Connected"], StandardForm]], 
+                 "SummaryItem"]}}, 
+              GridBoxAlignment -> {
+               "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+              False, GridBoxItemSize -> {
+               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+              GridBoxSpacings -> {
+               "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+              BaseStyle -> {
+               ShowStringCharacters -> False, NumberMarks -> False, 
+                PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+           GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+           GridBoxItemSize -> {
+            "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+           BaselinePosition -> {1, 1}], True -> GridBox[{{
+             GraphicsBox[
+              TagBox[
+               RasterBox[CompressedData["
+1:eJy11kEoQ3EAx/Fnox5WXgkl0m7/o6MySk44mSg5aMvbuGzZMMqJGw7KaZKb
+1FJaDpScRLlQTDgoJJSDmwjN79//v3o973n7v72tPqtt77/v+7/9997zBqP+
+kEuSpLiMJ38g0RGLBWb6FLzoj8THwhF1pCsyoYbVWEvQjTfroBFKpcIfJHVf
+DuNwBp/wDTcwD4pmuxLohmr+uh1mbfQa4ByyJp5gAOYgA/uaset8m4RAr4zP
+zayn9whN4OXjTzSfJUHOoxkS6NHjvQ2nMGnQpC6hzaJ5INDMWdSMT5pskwaf
+SfNWsBfVjW+12J6uwwXogXq+BjOCTcVgv1cFxn/x30ikKet6KZiGKxu/UT7e
+DOaYLlIr59igOVTk5pJB0w1HRWx2mqz9GvL3f+qEBzonoybvemCUsP+GU80p
+sx5vLjs8x2eotGjS4/viYHPwv56m20zYNajQ3kY+PU1XIeyae03EzzdZvhYr
+RJqaNj0Pi56baK9KsCMTdg+xa2N+W1Zrhjd6YQU24RA+bLReYVhwbvR+aIew
+64VI646wa4NHpKdr14IKa3DB9/+Hf/87b+wRdk/lA5edzi9wIbHH
+                "], {{0, 23.}, {29., 0}}, {0, 255}, ColorFunction -> 
+                RGBColor], 
+               BoxForm`ImageTag[
+               "Byte", ColorSpace -> "RGB", Interleaving -> True], Selectable -> 
+               False], DefaultBaseStyle -> "ImageGraphics", 
+              ImageSizeRaw -> {29., 23.}, PlotRange -> {{0, 29.}, {0, 23.}}], 
+             GridBox[{{
+                TagBox["\"Twitter\"", "SummaryItem"]}, {
+                TagBox[
+                 DynamicBox[
+                  ToBoxes[
+                   If[
+                    TrueQ[
+                    ServiceConnections`Private`authenticatedServiceQ[
+                    "connection-f5ff49fa695b373e5d7b5e8fee04e269"]], 
+                    "Connected", "Not Connected"], StandardForm]], 
+                 "SummaryItem"]}}, 
+              GridBoxAlignment -> {
+               "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+              False, GridBoxItemSize -> {
+               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+              GridBoxSpacings -> {
+               "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+              BaseStyle -> {
+               ShowStringCharacters -> False, NumberMarks -> False, 
+                PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+           GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+           GridBoxItemSize -> {
+            "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+           BaselinePosition -> {1, 1}]}, 
+        Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+      "SummaryPanel"],
+     DynamicModuleValues:>{}], "]"}],
+   ServiceObject[
+   "Twitter", "ID" -> "connection-f5ff49fa695b373e5d7b5e8fee04e269"],
+   Editable->False,
+   SelectWithContents->True,
+   Selectable->False], "[", "\<\"FriendNetwork\"\>", "]"}]], "Output",
+ CellChangeTimes->{3.80651252952689*^9},
+ CellLabel->"Out[270]=",
+ CellID->37175540,ExpressionUUID->"46215d7d-6ebb-4103-8539-b0aa9147d2cd"]
+}, Open  ]],
 
 Cell[BoxData[""], "Input",
  CellChangeTimes->{
@@ -236,7 +1391,8 @@ Cell[BoxData[""], "Input",
    3.806509147532445*^9}, {3.8065097014619527`*^9, 3.80650971052105*^9}, {
    3.8065098559442873`*^9, 3.8065099009584136`*^9}, {3.8065099424366198`*^9, 
    3.8065099446551833`*^9}},
- CellLabel->"In[88]:=",ExpressionUUID->"1c8a51fe-61b3-446f-b3f3-b27c622b6763"]
+ CellLabel->
+  "In[271]:=",ExpressionUUID->"1c8a51fe-61b3-446f-b3f3-b27c622b6763"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -740,82 +1896,82 @@ ExpressionUUID->"c06fb9c5-d508-4609-a920-6465f1f3862d"
 (* Internal cache information *)
 (*CellTagsOutline
 CellTagsIndex->{
- "Authoring Information"->{
-  Cell[26283, 638, 1158, 28, 67, "AuthorSection",ExpressionUUID->"c2736cdb-c24c-4dd4-9a22-5bbef1a7a20a",
-   CellTags->"Authoring Information"]},
- "AutomaticAnimation"->{
-  Cell[21334, 518, 1631, 34, 25, "ControlSuggestions",ExpressionUUID->"6e84bbe0-7d8e-44ab-aac1-048973c18d4f",
-   CellTags->"AutomaticAnimation"]},
- "BookmarkAnimation"->{
-  Cell[22968, 554, 1008, 23, 25, "ControlSuggestions",ExpressionUUID->"0cf5a50d-6c0e-4089-a29f-941bc4ca8891",
-   CellTags->"BookmarkAnimation"]},
- "Caption"->{
-  Cell[10189, 243, 1138, 24, 67, "ManipulateCaptionSection",ExpressionUUID->"3ed78bfd-4459-4d2a-906f-3e9e6aba33a4",
-   CellTags->"Caption"]},
- "Control Suggestions"->{
-  Cell[16007, 377, 1131, 28, 67, "ControlSuggestionsSection",ExpressionUUID->"af8a4061-fdd4-44d0-82cc-9fec786547ab",
-   CellTags->"Control Suggestions"]},
- "CreateAndDeleteLocators"->{
-  Cell[18980, 456, 808, 19, 25, "ControlSuggestions",ExpressionUUID->"98a81657-e34e-4dab-ac86-717d7eff050a",
-   CellTags->"CreateAndDeleteLocators"]},
- "Details"->{
-  Cell[13574, 325, 1866, 37, 293, "DetailsSection",ExpressionUUID->"b9971572-9357-4ce2-a011-62ff9eede7fa",
-   CellTags->"Details"]},
- "DragLocators"->{
-  Cell[18473, 441, 504, 13, 25, "ControlSuggestions",ExpressionUUID->"384b79dc-c11a-492d-87e1-2c4b84403891",
-   CellTags->"DragLocators"]},
- "GamepadControls"->{
-  Cell[20807, 503, 524, 13, 25, "ControlSuggestions",ExpressionUUID->"b4dbde82-29d9-4853-88cd-e053ae8d181c",
-   CellTags->"GamepadControls"]},
  "Initialization Code"->{
   Cell[764, 29, 1833, 39, 334, "InitializationSection",ExpressionUUID->"1d34a731-8c48-4189-8b6f-89ef5777db9f",
    CellTags->"Initialization Code"]},
  "Manipulate"->{
-  Cell[6683, 165, 1524, 30, 67, "ManipulateSection",ExpressionUUID->"b7acceb9-ca4b-4965-b319-bd8a6214a587",
+  Cell[67401, 1184, 1524, 30, 67, "ManipulateSection",ExpressionUUID->"b7acceb9-ca4b-4965-b319-bd8a6214a587",
    CellTags->"Manipulate"]},
- "Related Links"->{
-  Cell[25067, 606, 1191, 28, 67, "RelatedLinksSection",ExpressionUUID->"83b0243b-b7e3-4afb-8a4e-185fec8161fe",
-   CellTags->"Related Links"]},
+ "Caption"->{
+  Cell[77146, 1399, 1138, 24, 67, "ManipulateCaptionSection",ExpressionUUID->"3ed78bfd-4459-4d2a-906f-3e9e6aba33a4",
+   CellTags->"Caption"]},
+ "Thumbnail"->{
+  Cell[78480, 1431, 1005, 22, 67, "ThumbnailSection",ExpressionUUID->"401cc3c4-8319-4e19-82e7-df5fcb711a42",
+   CellTags->"Thumbnail"]},
+ "Snapshots"->{
+  Cell[79488, 1455, 1018, 22, 67, "SnapshotsSection",ExpressionUUID->"96bb7a68-4496-4362-86d3-c2a0812907f2",
+   CellTags->"Snapshots"]},
+ "Details"->{
+  Cell[80531, 1481, 1866, 37, 293, "DetailsSection",ExpressionUUID->"b9971572-9357-4ce2-a011-62ff9eede7fa",
+   CellTags->"Details"]},
+ "Control Suggestions"->{
+  Cell[82964, 1533, 1131, 28, 67, "ControlSuggestionsSection",ExpressionUUID->"af8a4061-fdd4-44d0-82cc-9fec786547ab",
+   CellTags->"Control Suggestions"]},
  "ResizeImages"->{
-  Cell[17141, 407, 476, 10, 25, "ControlSuggestions",ExpressionUUID->"ac542041-3d26-42bf-920d-b54a74785eef",
+  Cell[84098, 1563, 476, 10, 25, "ControlSuggestions",ExpressionUUID->"ac542041-3d26-42bf-920d-b54a74785eef",
    CellTags->"ResizeImages"]},
  "RotateAndZoomIn3D"->{
-  Cell[17620, 419, 850, 20, 25, "ControlSuggestions",ExpressionUUID->"e14e98ed-7514-4081-99ea-c2ffb624df9b",
+  Cell[84577, 1575, 850, 20, 25, "ControlSuggestions",ExpressionUUID->"e14e98ed-7514-4081-99ea-c2ffb624df9b",
    CellTags->"RotateAndZoomIn3D"]},
- "Search Terms"->{
-  Cell[23991, 580, 1073, 24, 67, "SearchTermsSection",ExpressionUUID->"a3a3a6a7-7876-4115-a51a-6d092bee139b",
-   CellTags->"Search Terms"]},
+ "DragLocators"->{
+  Cell[85430, 1597, 504, 13, 25, "ControlSuggestions",ExpressionUUID->"384b79dc-c11a-492d-87e1-2c4b84403891",
+   CellTags->"DragLocators"]},
+ "CreateAndDeleteLocators"->{
+  Cell[85937, 1612, 808, 19, 25, "ControlSuggestions",ExpressionUUID->"98a81657-e34e-4dab-ac86-717d7eff050a",
+   CellTags->"CreateAndDeleteLocators"]},
  "SliderZoom"->{
-  Cell[19791, 477, 1013, 24, 25, "ControlSuggestions",ExpressionUUID->"b84ac2ce-e422-4d4d-953e-073d63c15a9e",
+  Cell[86748, 1633, 1013, 24, 25, "ControlSuggestions",ExpressionUUID->"b84ac2ce-e422-4d4d-953e-073d63c15a9e",
    CellTags->"SliderZoom"]},
- "Snapshots"->{
-  Cell[12531, 299, 1018, 22, 67, "SnapshotsSection",ExpressionUUID->"96bb7a68-4496-4362-86d3-c2a0812907f2",
-   CellTags->"Snapshots"]},
- "Thumbnail"->{
-  Cell[11523, 275, 1005, 22, 67, "ThumbnailSection",ExpressionUUID->"401cc3c4-8319-4e19-82e7-df5fcb711a42",
-   CellTags->"Thumbnail"]}
+ "GamepadControls"->{
+  Cell[87764, 1659, 524, 13, 25, "ControlSuggestions",ExpressionUUID->"b4dbde82-29d9-4853-88cd-e053ae8d181c",
+   CellTags->"GamepadControls"]},
+ "AutomaticAnimation"->{
+  Cell[88291, 1674, 1631, 34, 25, "ControlSuggestions",ExpressionUUID->"6e84bbe0-7d8e-44ab-aac1-048973c18d4f",
+   CellTags->"AutomaticAnimation"]},
+ "BookmarkAnimation"->{
+  Cell[89925, 1710, 1008, 23, 25, "ControlSuggestions",ExpressionUUID->"0cf5a50d-6c0e-4089-a29f-941bc4ca8891",
+   CellTags->"BookmarkAnimation"]},
+ "Search Terms"->{
+  Cell[90948, 1736, 1073, 24, 67, "SearchTermsSection",ExpressionUUID->"a3a3a6a7-7876-4115-a51a-6d092bee139b",
+   CellTags->"Search Terms"]},
+ "Related Links"->{
+  Cell[92024, 1762, 1191, 28, 67, "RelatedLinksSection",ExpressionUUID->"83b0243b-b7e3-4afb-8a4e-185fec8161fe",
+   CellTags->"Related Links"]},
+ "Authoring Information"->{
+  Cell[93240, 1794, 1158, 28, 67, "AuthorSection",ExpressionUUID->"c2736cdb-c24c-4dd4-9a22-5bbef1a7a20a",
+   CellTags->"Authoring Information"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Authoring Information", 30988, 742},
- {"AutomaticAnimation", 31158, 745},
- {"BookmarkAnimation", 31329, 748},
- {"Caption", 31489, 751},
- {"Control Suggestions", 31657, 754},
- {"CreateAndDeleteLocators", 31842, 757},
- {"Details", 32007, 760},
- {"DragLocators", 32159, 763},
- {"GamepadControls", 32321, 766},
- {"Initialization Code", 32490, 769},
- {"Manipulate", 32656, 772},
- {"Related Links", 32813, 775},
- {"ResizeImages", 32975, 778},
- {"RotateAndZoomIn3D", 33139, 781},
- {"Search Terms", 33303, 784},
- {"SliderZoom", 33461, 787},
- {"Snapshots", 33616, 790},
- {"Thumbnail", 33768, 793}
+ {"Initialization Code", 97943, 1898},
+ {"Manipulate", 98109, 1901},
+ {"Caption", 98262, 1904},
+ {"Thumbnail", 98421, 1907},
+ {"Snapshots", 98574, 1910},
+ {"Details", 98725, 1913},
+ {"Control Suggestions", 98885, 1916},
+ {"ResizeImages", 99060, 1919},
+ {"RotateAndZoomIn3D", 99225, 1922},
+ {"DragLocators", 99390, 1925},
+ {"CreateAndDeleteLocators", 99561, 1928},
+ {"SliderZoom", 99730, 1931},
+ {"GamepadControls", 99892, 1934},
+ {"AutomaticAnimation", 100061, 1937},
+ {"BookmarkAnimation", 100233, 1940},
+ {"Search Terms", 100399, 1943},
+ {"Related Links", 100561, 1946},
+ {"Authoring Information", 100733, 1949}
  }
 *)
 (*NotebookFileOutline
@@ -825,62 +1981,100 @@ Cell[583, 22, 156, 3, 97, "Title",ExpressionUUID->"b9e6fe14-67c5-4f7d-9ec0-13c36
 Cell[CellGroupData[{
 Cell[764, 29, 1833, 39, 334, "InitializationSection",ExpressionUUID->"1d34a731-8c48-4189-8b6f-89ef5777db9f",
  CellTags->"Initialization Code"],
-Cell[2600, 70, 4046, 90, 301, "Input",ExpressionUUID->"d349fbfa-5d52-470e-8fbb-a71b2b31baeb",
- CellID->116065894]
+Cell[CellGroupData[{
+Cell[2622, 72, 4046, 90, 301, "Input",ExpressionUUID->"d349fbfa-5d52-470e-8fbb-a71b2b31baeb",
+ CellID->116065894],
+Cell[6671, 164, 4970, 100, 53, "Output",ExpressionUUID->"7cc71d9a-5a52-46ce-a776-981b7ee4c9c2",
+ CellID->73958049],
+Cell[11644, 266, 187, 4, 23, "Output",ExpressionUUID->"3f35f44b-eb63-4dca-9d62-5d42201297c3",
+ CellID->631729034],
+Cell[11834, 272, 185, 3, 23, "Output",ExpressionUUID->"e9cf952b-07a7-4399-bcb7-278391495125",
+ CellID->236756293],
+Cell[12022, 277, 6743, 138, 473, "Output",ExpressionUUID->"60506977-1545-4b30-ae9d-c98aae86152a",
+ CellID->359109319],
+Cell[18768, 417, 1326, 28, 66, "Output",ExpressionUUID->"a9abe713-48a6-48d1-87d8-bbee539212c5",
+ CellID->114524006],
+Cell[20097, 447, 446, 9, 21, "Message",ExpressionUUID->"ce1a38f5-7189-480d-b309-a42638915147",
+ CellID->191045493],
+Cell[20546, 458, 35748, 477, 49, "Message",ExpressionUUID->"2bed4485-8563-43e0-acf8-6b11ac353fc3",
+ CellID->279946858],
+Cell[56297, 937, 5416, 111, 53, "Output",ExpressionUUID->"7e785b3e-8659-473d-9499-1b8399f364f0",
+ CellID->37066555],
+Cell[61716, 1050, 480, 10, 23, "Output",ExpressionUUID->"45569096-cc2a-4e41-a95e-07e2bb8a5a83",
+ CellID->515301495],
+Cell[62199, 1062, 1242, 29, 41, "Output",ExpressionUUID->"e08df44b-cd6c-4631-a182-9678addfa0bb",
+ CellID->137010021],
+Cell[63444, 1093, 3237, 65, 335, "Output",ExpressionUUID->"8c59db92-2f85-4d05-9b02-a26c780fde7a",
+ CellID->62911048],
+Cell[66684, 1160, 472, 12, 23, "Output",ExpressionUUID->"d366b339-c8dd-4245-9f3e-a7fb5666b92c",
+ CellID->524208332],
+Cell[67159, 1174, 193, 4, 40, "Output",ExpressionUUID->"4deb0073-e495-4032-a086-c7eb523fbb4b",
+ CellID->839910657]
+}, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[6683, 165, 1524, 30, 67, "ManipulateSection",ExpressionUUID->"b7acceb9-ca4b-4965-b319-bd8a6214a587",
+Cell[67401, 1184, 1524, 30, 67, "ManipulateSection",ExpressionUUID->"b7acceb9-ca4b-4965-b319-bd8a6214a587",
  CellTags->"Manipulate"],
-Cell[8210, 197, 1482, 32, 94, "Input",ExpressionUUID->"fc1775d0-6a8d-4005-bc68-4b5ab7d1e1da",
+Cell[CellGroupData[{
+Cell[68950, 1218, 1482, 32, 94, "Input",ExpressionUUID->"fc1775d0-6a8d-4005-bc68-4b5ab7d1e1da",
  CellID->802648352],
-Cell[9695, 231, 457, 7, 24, "Input",ExpressionUUID->"1c8a51fe-61b3-446f-b3f3-b27c622b6763"]
+Cell[70435, 1252, 384, 7, 27, "Output",ExpressionUUID->"dd924358-8854-4dab-854e-bf4d85e1c2f8",
+ CellID->85068427],
+Cell[70822, 1261, 205, 4, 23, "Output",ExpressionUUID->"70994235-4283-41bf-9e23-3899427492b3",
+ CellID->795508450],
+Cell[71030, 1267, 445, 9, 21, "Message",ExpressionUUID->"c164295a-4312-42d4-bfd8-679315190a5f",
+ CellID->1021485209],
+Cell[71478, 1278, 5155, 105, 53, "Output",ExpressionUUID->"46215d7d-6ebb-4103-8539-b0aa9147d2cd",
+ CellID->37175540]
+}, Open  ]],
+Cell[76648, 1386, 461, 8, 24, "Input",ExpressionUUID->"1c8a51fe-61b3-446f-b3f3-b27c622b6763"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[10189, 243, 1138, 24, 67, "ManipulateCaptionSection",ExpressionUUID->"3ed78bfd-4459-4d2a-906f-3e9e6aba33a4",
+Cell[77146, 1399, 1138, 24, 67, "ManipulateCaptionSection",ExpressionUUID->"3ed78bfd-4459-4d2a-906f-3e9e6aba33a4",
  CellTags->"Caption"],
-Cell[11330, 269, 178, 3, 23, "ManipulateCaption",ExpressionUUID->"71921e4e-c8c2-4f05-96e3-4e3047349e9a"]
+Cell[78287, 1425, 178, 3, 23, "ManipulateCaption",ExpressionUUID->"71921e4e-c8c2-4f05-96e3-4e3047349e9a"]
 }, Open  ]],
-Cell[11523, 275, 1005, 22, 67, "ThumbnailSection",ExpressionUUID->"401cc3c4-8319-4e19-82e7-df5fcb711a42",
+Cell[78480, 1431, 1005, 22, 67, "ThumbnailSection",ExpressionUUID->"401cc3c4-8319-4e19-82e7-df5fcb711a42",
  CellTags->"Thumbnail"],
-Cell[12531, 299, 1018, 22, 67, "SnapshotsSection",ExpressionUUID->"96bb7a68-4496-4362-86d3-c2a0812907f2",
+Cell[79488, 1455, 1018, 22, 67, "SnapshotsSection",ExpressionUUID->"96bb7a68-4496-4362-86d3-c2a0812907f2",
  CellTags->"Snapshots"],
 Cell[CellGroupData[{
-Cell[13574, 325, 1866, 37, 293, "DetailsSection",ExpressionUUID->"b9971572-9357-4ce2-a011-62ff9eede7fa",
+Cell[80531, 1481, 1866, 37, 293, "DetailsSection",ExpressionUUID->"b9971572-9357-4ce2-a011-62ff9eede7fa",
  CellTags->"Details"],
-Cell[15443, 364, 527, 8, 39, "DetailNotes",ExpressionUUID->"668ed82a-f8a9-4e79-9d9c-de19b89ec4c5",
+Cell[82400, 1520, 527, 8, 39, "DetailNotes",ExpressionUUID->"668ed82a-f8a9-4e79-9d9c-de19b89ec4c5",
  CellID->690356809]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[16007, 377, 1131, 28, 67, "ControlSuggestionsSection",ExpressionUUID->"af8a4061-fdd4-44d0-82cc-9fec786547ab",
+Cell[82964, 1533, 1131, 28, 67, "ControlSuggestionsSection",ExpressionUUID->"af8a4061-fdd4-44d0-82cc-9fec786547ab",
  CellTags->"Control Suggestions"],
-Cell[17141, 407, 476, 10, 25, "ControlSuggestions",ExpressionUUID->"ac542041-3d26-42bf-920d-b54a74785eef",
+Cell[84098, 1563, 476, 10, 25, "ControlSuggestions",ExpressionUUID->"ac542041-3d26-42bf-920d-b54a74785eef",
  CellTags->"ResizeImages"],
-Cell[17620, 419, 850, 20, 25, "ControlSuggestions",ExpressionUUID->"e14e98ed-7514-4081-99ea-c2ffb624df9b",
+Cell[84577, 1575, 850, 20, 25, "ControlSuggestions",ExpressionUUID->"e14e98ed-7514-4081-99ea-c2ffb624df9b",
  CellTags->"RotateAndZoomIn3D"],
-Cell[18473, 441, 504, 13, 25, "ControlSuggestions",ExpressionUUID->"384b79dc-c11a-492d-87e1-2c4b84403891",
+Cell[85430, 1597, 504, 13, 25, "ControlSuggestions",ExpressionUUID->"384b79dc-c11a-492d-87e1-2c4b84403891",
  CellTags->"DragLocators"],
-Cell[18980, 456, 808, 19, 25, "ControlSuggestions",ExpressionUUID->"98a81657-e34e-4dab-ac86-717d7eff050a",
+Cell[85937, 1612, 808, 19, 25, "ControlSuggestions",ExpressionUUID->"98a81657-e34e-4dab-ac86-717d7eff050a",
  CellTags->"CreateAndDeleteLocators"],
-Cell[19791, 477, 1013, 24, 25, "ControlSuggestions",ExpressionUUID->"b84ac2ce-e422-4d4d-953e-073d63c15a9e",
+Cell[86748, 1633, 1013, 24, 25, "ControlSuggestions",ExpressionUUID->"b84ac2ce-e422-4d4d-953e-073d63c15a9e",
  CellTags->"SliderZoom"],
-Cell[20807, 503, 524, 13, 25, "ControlSuggestions",ExpressionUUID->"b4dbde82-29d9-4853-88cd-e053ae8d181c",
+Cell[87764, 1659, 524, 13, 25, "ControlSuggestions",ExpressionUUID->"b4dbde82-29d9-4853-88cd-e053ae8d181c",
  CellTags->"GamepadControls"],
-Cell[21334, 518, 1631, 34, 25, "ControlSuggestions",ExpressionUUID->"6e84bbe0-7d8e-44ab-aac1-048973c18d4f",
+Cell[88291, 1674, 1631, 34, 25, "ControlSuggestions",ExpressionUUID->"6e84bbe0-7d8e-44ab-aac1-048973c18d4f",
  CellTags->"AutomaticAnimation"],
-Cell[22968, 554, 1008, 23, 25, "ControlSuggestions",ExpressionUUID->"0cf5a50d-6c0e-4089-a29f-941bc4ca8891",
+Cell[89925, 1710, 1008, 23, 25, "ControlSuggestions",ExpressionUUID->"0cf5a50d-6c0e-4089-a29f-941bc4ca8891",
  CellTags->"BookmarkAnimation"]
 }, Open  ]],
-Cell[23991, 580, 1073, 24, 67, "SearchTermsSection",ExpressionUUID->"a3a3a6a7-7876-4115-a51a-6d092bee139b",
+Cell[90948, 1736, 1073, 24, 67, "SearchTermsSection",ExpressionUUID->"a3a3a6a7-7876-4115-a51a-6d092bee139b",
  CellTags->"Search Terms"],
-Cell[25067, 606, 1191, 28, 67, "RelatedLinksSection",ExpressionUUID->"83b0243b-b7e3-4afb-8a4e-185fec8161fe",
+Cell[92024, 1762, 1191, 28, 67, "RelatedLinksSection",ExpressionUUID->"83b0243b-b7e3-4afb-8a4e-185fec8161fe",
  CellTags->"Related Links"],
 Cell[CellGroupData[{
-Cell[26283, 638, 1158, 28, 67, "AuthorSection",ExpressionUUID->"c2736cdb-c24c-4dd4-9a22-5bbef1a7a20a",
+Cell[93240, 1794, 1158, 28, 67, "AuthorSection",ExpressionUUID->"c2736cdb-c24c-4dd4-9a22-5bbef1a7a20a",
  CellTags->"Authoring Information"],
-Cell[27444, 668, 248, 5, 23, "Author",ExpressionUUID->"e6a077c9-f528-4852-97e7-764f2f3a1895"],
-Cell[27695, 675, 280, 4, 23, "Author",ExpressionUUID->"305d50cc-a286-4471-ba0d-e224d624b76b",
+Cell[94401, 1824, 248, 5, 23, "Author",ExpressionUUID->"e6a077c9-f528-4852-97e7-764f2f3a1895"],
+Cell[94652, 1831, 280, 4, 23, "Author",ExpressionUUID->"305d50cc-a286-4471-ba0d-e224d624b76b",
  CellID->664480523],
-Cell[27978, 681, 247, 4, 23, "Author",ExpressionUUID->"1f4552be-2123-40e4-bfa8-44dfc0c69d1f",
+Cell[94935, 1837, 247, 4, 23, "Author",ExpressionUUID->"1f4552be-2123-40e4-bfa8-44dfc0c69d1f",
  CellID->426577346]
 }, Open  ]]
 }, Open  ]]
